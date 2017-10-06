@@ -31,7 +31,7 @@ public class ArithmeticOperations {
 
         for(int interation = 1 ; interation <= 5 ; interation++){
             for(int i = 0,j = 1 ; i < 5 && j < 5 ;i++, j++){
-                if(input[i] > input[j]){
+                if(input[i] < input[j]){
                     int temp = input[i];
                     input[i] = input[j];
                     input[j] = temp;
